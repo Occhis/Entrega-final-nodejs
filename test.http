@@ -1,0 +1,9 @@
+### Crear un producto
+
+GET http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+  "name": "Pantalon Oversize",
+  "price": "$290000"
+}
